@@ -9,10 +9,11 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     UserFormComponent,
-    UserListComponent,
+    UserListComponent
     //Modulo 7- Adicionar as 2 declarações abaixo
   ],
   imports: [
+   
     CommonModule,
     UserRoutingModule,
     SharedModule,

@@ -15,7 +15,10 @@ export class TeacherListComponent implements OnInit {
   courseLabel: Array<{ value: string, label: string }> = [];
   teachers: any[] = [];
 
-  constructor(private teacherService: TeacherService, private sharedService: SharedService) { }
+  constructor(
+    private teacherService: TeacherService, 
+    private sharedService: SharedService
+  ) { }
 
   async ngOnInit(): Promise<void> {
     await this.listTeachers();

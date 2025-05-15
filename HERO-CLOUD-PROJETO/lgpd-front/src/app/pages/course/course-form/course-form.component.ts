@@ -86,4 +86,3 @@ export class CourseFormComponent {
     await this.router.navigate(['/courses']);
   }
 }
-

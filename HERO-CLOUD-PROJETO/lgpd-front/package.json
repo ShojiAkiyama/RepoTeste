@@ -23,7 +23,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@ng-bootstrap/ng-bootstrap": "^14.0.0",
     "@ngx-formly/bootstrap": "^6.0.4",
-    "@ngx-formly/core": "^6.0.4",
+    "@ngx-formly/core": "^6.3.12",
     "axios": "^1.2.2",
     "bootstrap": "^5.2.3",
     "fullscreen": "^1.1.1",
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.0.5",
-    "@angular/cli": "~15.0.5",
+    "@angular/cli": "^15.2.11",
     "@angular/compiler-cli": "^15.0.0",
     "@types/axios": "^0.14.0",
     "@types/jasmine": "~4.3.0",

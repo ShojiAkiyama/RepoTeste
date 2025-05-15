@@ -18,6 +18,10 @@ export class SharedService {
     users: Array<{ value: string, label: string }> = [];
     courses: Array<{ value: string, label: string }> = [];
 
+    userLabel: Array<{ id: String; first_name: String; }> = [];
+    courseLabel: Array<{ id: String; name: String; }> = [];
+    
+
     getUsers(): Observable<any[]> {
         return this.http
             .get("http://localhost:3000/getAllUsers")
@@ -51,7 +55,9 @@ export class SharedService {
     }
 
     constructor(
-        private http: HttpClient
+        private http: HttpClient,
+        private userService: UserService,
+        private courseService: CourseService
     ) {
     }
 }

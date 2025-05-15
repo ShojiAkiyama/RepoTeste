@@ -18,7 +18,9 @@ export class EvaluationListComponent implements OnInit{
 
   evaluations: any[] = [];
 
-  constructor(private evaluationService: EvaluationService, private sharedService: SharedService) { }
+  constructor(
+    private evaluationService: EvaluationService, 
+    private sharedService: SharedService) { }
 
   async ngOnInit(): Promise<void> {
     await this.listEvaluations();

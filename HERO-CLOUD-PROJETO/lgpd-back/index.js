@@ -19,7 +19,7 @@ app.use(cors());
         association.associations();
         await sequelize.sync();
         app.listen(3000, function () {
-            console.log("Listening from 3000");
+            console.log("Listening to port 3000");
         });
     } catch (err) {
         console.log(err);

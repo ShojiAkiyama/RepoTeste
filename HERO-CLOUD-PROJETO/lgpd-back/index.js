@@ -1,14 +1,14 @@
-import { express } from "express";
-import { pkg } from "body-parser";
-import { router } from "./routes/router.js"
-import { sequelize } from "./utils/database.js";
-import { association } from "./models/Associations.js";
+import express from "express";
+import pkg from "body-parser";
+import router from "./routes/router.js"
+import sequelize from "./utils/database.js";
+import association from "./models/Associations.js";
 
 const  app = express ();
-const { json, urlendcoded } = pkg;
+const { json, urlencoded } = pkg;
 
 app.use(json());
-app.use(urlendcoded({ extended: true}));
+app.use(urlencoded({ extended: true}));
 
 
 (async () => {

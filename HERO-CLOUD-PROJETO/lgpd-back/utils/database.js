@@ -1,6 +1,6 @@
-import { Sequelize }from 'sequelize';
+import Sequelize from 'sequelize';
 
-const Sequelize = new Sequelize(
+const sequelize = new Sequelize(
     'lgpd-database',
     'postgres',
     'postgres',
@@ -14,4 +14,4 @@ const Sequelize = new Sequelize(
     }
 );
 
-export default Sequelize;
+export default sequelize;

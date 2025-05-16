@@ -1,8 +1,10 @@
 import express from "express";
 import pkg from "body-parser";
-import router from "./routes/router.js"
+import router from "./routes/router.js";
+
 import sequelize from "./utils/database.js";
 import association from "./models/Associations.js";
+
 import cors from "cors";
 
 const  app = express ();
@@ -19,10 +21,10 @@ app.use(cors());
         app.listen(3000, function () {
             console.log("Listening from 3000");
         });
-    } catch (error) {
-        console.log(error);
+    } catch (err) {
+        console.log(err);
     }
-});
+})();
 
 
 app.use("/", router);

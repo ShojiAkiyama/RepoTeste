@@ -1,6 +1,6 @@
 # Intermediary-Backend
 -------------
-Esse repositório tem como principal objetivo guardar os códigos das aulas prátias que irão te ensinar a integrar uma aplicação Backend com outra Frontend e entender conceitos como versionamento de código, frammework Node com seus módulos internos e externos.
+Esse repositório tem como principal objetivo guardar os códigos das aulas práticas que irão te ensinar a integrar uma aplicação Backend com outra Frontend e entender conceitos como versionamento de código, frammework Node com seus módulos internos e externos.
 
 1. O que é o projeto ?
   É um projeto para aprender a integrar o backend com o frontend de uma API Restful.
